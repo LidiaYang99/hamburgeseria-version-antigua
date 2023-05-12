@@ -36,3 +36,35 @@ body {
     font-family: var(--funteprincipal);
     font-size: var(--font-size);
 }
+
+/* Inicio header */
+
+header .nav-top {
+    background-color: var(--colorsecundario);
+    padding: 1.25em 0;
+}
+
+header .nav-top .container {
+    display: flex;
+    justify-content: space-around;
+}
+
+header .nav-top a {
+    color: var(--colorprincipal);
+    text-decoration: none;
+}
+
+header .nav-top a i {
+    font-size: 150%;
+}
+
+header .nav-top span {
+    color: #fff;
+    display: none;
+}
+
+
+
+
+
+/* Final header */
