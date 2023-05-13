@@ -116,7 +116,48 @@ header nav .menu li:last-child a {
 
 
 
+/* ------------Inicio Menu------------- */
 
+.d-menu{
+    background-color: var(--colorsecundario);
+    color: #fff;
+}
+
+.d-menu h2 {
+    text-align: center;
+    font-family: var(--funetetitulo);
+    font-size: 3em;
+}
+
+.d-menu h2 span {
+    color: var(--colorprincipal);
+}
+
+.d-menu .hr {
+    position: relative;
+    margin: 0.625em auto;
+    height: 4px;
+    width: 150px;
+    background-color: var(--colorprincipal);
+}
+
+.d-menu .hr span {
+    position: absolute;
+    font-size: 1.8em;
+    font-weight: bold;
+    color: var(--colorprincipal);
+    left: 50%;
+    top: -350%;
+    transform: translate(-50%);
+}
+
+
+
+
+
+
+
+/* ------------Final Menu------------- */
 
 
 
