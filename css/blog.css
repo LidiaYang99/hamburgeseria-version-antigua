@@ -116,6 +116,12 @@ header nav .menu li:last-child a {
 
 /* ----------Inicio seccion blog------------- */
 
+.blog {
+    width: 100%;
+    padding: 1.25em;
+    margin-top: 1.25em;
+}
+
 .blog h2 {
     text-align: center;
     font-family: var(--funetetitulo);
@@ -144,8 +150,49 @@ header nav .menu li:last-child a {
     transform: translate(-50%);
 }
 
+.blog .contenido {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 1.875em;
+}
 
+.blog .contenido article {
+    width: 50%;
+    padding: 0.9375em;
+}
 
+.blog .contenido .bottom {
+    padding: 0.625em;
+    column-rule: var(--colorsecundario);
+}
+
+.blog .contenido h4 {
+    font-size: 1.25em;
+    font-weight: bold;
+
+}
+
+.blog .contenido h5 {
+    color: var(--colorprincipal);
+    font-weight: bold;
+    padding: 0.625em 0;
+}
+
+.blog .contenido p {
+    line-height: 1.2;
+    margin-bottom: 15px;
+}
+
+.blog .container a {
+    display: block;
+    width: 70%;
+    color: var(--colorprincipal);
+    font-weight: bold;
+}
+
+.blog .container a::after {
+    content: ' ➙';
+}
 
 
 
@@ -214,9 +261,9 @@ footer div {
         display: inline;
     }
 
-   
 
-    
+
+
 
 }
 
