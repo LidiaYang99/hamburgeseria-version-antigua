@@ -122,7 +122,7 @@ header nav .menu li:last-child a {
     background-blend-mode: multiply;
     background-size: cover;
     background-position: 50% 60%;
-    height: 100vh;
+    height: 90vh;
 }
 
 .hero .container {
@@ -232,7 +232,7 @@ header nav .menu li:last-child a {
 
 .servicio .detalle h4 {
     font-weight: bold;
-    margin: 10px 0;
+    margin: 0.625em 0;
 }
 
 .servicio .detalle article a {
@@ -248,7 +248,7 @@ header nav .menu li:last-child a {
 }
 
 .servicio .detalle article {
-    margin-top: 20px;
+    margin-top: 1.25em;
     border-bottom: 2px solid gray;
 }
 
@@ -270,6 +270,7 @@ header nav .menu li:last-child a {
 /* inicio mediaqueries */
 @media(min-width:48em) {
 
+    /* header */
     header .nav-top .container {
         justify-content: space-between;
     }
@@ -280,6 +281,18 @@ header nav .menu li:last-child a {
 
     header .nav-top span {
         display: inline;
+    }
+
+    /* servicio */
+    .servicio .detalle {
+        display: flex;
+    }
+
+    .servicio .detalle article {
+        padding: 0.9375em;
+        width: 33.33%;
+        border-left: 2px solid gray;
+        border-bottom: 0;
     }
 }
 
