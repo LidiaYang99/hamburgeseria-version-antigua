@@ -183,7 +183,55 @@ header nav .menu li:last-child a {
 /*----------- Final hero -----------*/
 
 
+/*---------- Inicio servicio ------------*/
 
+
+.servicio {
+    width: 100%;
+    padding: 1.25em;
+    margin-top: 20px;
+}
+
+.servicio h2 {
+    text-align: center;
+    font-family: var(--funetetitulo);
+    font-size: 3em;
+}
+
+.servicio h2 span {
+    color: var(--colorprincipal);
+}
+
+.servicio .hr {
+    position: relative;
+    margin: 10px auto;
+    height: 4px;
+    width: 150px;
+    background-color: var(--colorprincipal);
+}
+
+.servicio .hr span {
+    position: absolute;
+    font-size: 1.8em;
+    font-weight: bold;
+    color: var(--colorprincipal);
+    left: 50%;
+    top: -350%;
+    transform: translate(-50%);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*---------- Final servicio ------------*/
 
 
 
