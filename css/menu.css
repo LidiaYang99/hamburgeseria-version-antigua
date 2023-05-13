@@ -159,6 +159,11 @@ header nav .menu li:last-child a {
     padding: 20px;
 }
 
+.d-menu ul li a {
+    display: block;
+    color: #fff;
+}
+
 .d-menu ul li {
     padding: 5px 8px;
     border-radius: 3px;
