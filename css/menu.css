@@ -228,21 +228,6 @@ header nav .menu li:last-child a {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* ----------Inicio botton para arribia--------- */
 main {
     position: relative;
@@ -299,13 +284,25 @@ footer div {
         display: inline;
     }
 
-
-    .blog .contenido article {
-        width: 33.33%;
-
+    .d-menu .row {
+        display: flex;
+        margin: 0 auto;
+        justify-content: space-around;
+        /* padding: 0 50px; */
     }
 
+    .d-menu .row .contenido {
+        margin-top: 25px;
+    }
 
+    .d-menu .row .contenido article {
+        display: flex;
+    }
+
+    .d-menu .row .contenido figure {
+        margin: 15px 15px 0 0;
+        width: 20%;
+    }
 
 }
 
