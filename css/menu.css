@@ -118,7 +118,10 @@ header nav .menu li:last-child a {
 
 /* ------------Inicio Menu------------- */
 
-.d-menu{
+.d-menu {
+    width: 100%;
+    padding: 1.25em;
+    margin-top: 1.25em;
     background-color: var(--colorsecundario);
     color: #fff;
 }
@@ -151,11 +154,70 @@ header nav .menu li:last-child a {
     transform: translate(-50%);
 }
 
+.d-menu .opcion {
+    margin-top: 30px;
+    padding: 20px;
+}
 
+.d-menu ul li {
+    padding: 5px 8px;
+    border-radius: 3px;
+}
 
+.d-menu ul li:first-child {
+    background-color: var(--colorprincipal);
+}
 
+.d-menu .show {
+    margin-top: 30px;
+}
 
+.d-menu .show h4 {
+    font-weight: bold;
+}
 
+.d-menu .show p {
+    margin-top: 15px;
+    font-size: 0.8em;
+    color: gray;
+}
+
+.d-menu .contenido {
+    padding: 5px 40px;
+}
+
+.d-menu .contenido article {
+    margin-bottom: 25px;
+}
+
+.d-menu .contenido h4 {
+    font-size: 0.9em;
+    margin: 15px 0 10px 0;
+    font-weight: bold;
+}
+
+.d-menu .contenido h4 span {
+    color: var(--colorprincipal);
+    font-weight: none;
+    padding-left: 10px;
+}
+
+.d-menu .contenido p {
+    font-size: 0.8em;
+    color: gray;
+}
+
+.d-menu .contenido a {
+    display: block;
+    width: 30%;
+    color: var(--colorprincipal);
+    font-size: 0.7em;
+    padding-top: 15px;
+}
+
+.d-menu .contenido a::after {
+    content: ' ➙'
+}
 
 /* ------------Final Menu------------- */
 
@@ -204,7 +266,7 @@ footer {
     width: 100%;
     height: 6vh;
     line-height: 6vh;
-    margin-top: 20px;
+    /* margin-top: 20px; */
     background-color: var(--colorsecundario)
 }
 
