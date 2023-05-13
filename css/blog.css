@@ -114,6 +114,50 @@ header nav .menu li:last-child a {
 
 
 
+/* ----------Inicio seccion blog------------- */
+
+.blog h2 {
+    text-align: center;
+    font-family: var(--funetetitulo);
+    font-size: 3em;
+}
+
+.blog h2 span {
+    color: var(--colorprincipal);
+}
+
+.blog .hr {
+    position: relative;
+    margin: 0.625em auto;
+    height: 4px;
+    width: 150px;
+    background-color: var(--colorprincipal);
+}
+
+.blog .hr span {
+    position: absolute;
+    font-size: 1.8em;
+    font-weight: bold;
+    color: var(--colorprincipal);
+    left: 50%;
+    top: -350%;
+    transform: translate(-50%);
+}
+
+
+
+
+
+
+
+
+
+
+
+/* ----------Final seccion blog------------- */
+
+
+
 
 /* ----------Inicio botton para arribia--------- */
 main {
