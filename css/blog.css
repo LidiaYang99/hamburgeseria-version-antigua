@@ -168,9 +168,14 @@ header nav .menu li:last-child a {
     width: 80px;
     height: 80px;
     background-color: var(--colorprincipal);
+    opacity: 0.8;
+    color: #fff;
+    font-size: 1.25em;
+    font-weight: bold;
+    padding: 8px;
+    text-align: center;
+    line-height: 1.6;
 }
-
-
 
 .blog .contenido article {
     width: 50%;
