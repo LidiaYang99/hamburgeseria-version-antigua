@@ -216,12 +216,6 @@ header nav .menu li:last-child a {
 }
 
 
-
-
-
-
-
-
 /* ----------Final seccion blog------------- */
 
 
@@ -283,6 +277,10 @@ footer div {
     }
 
 
+    .blog .contenido article {
+        width: 33.33%;
+ 
+    }
 
 
 
