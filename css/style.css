@@ -122,7 +122,7 @@ header nav .menu li:last-child a {
     background-blend-mode: multiply;
     background-size: cover;
     background-position: 50% 60%;
-    height: 80vh;
+    height: 90vh;
 }
 
 .hero .container {
@@ -183,7 +183,86 @@ header nav .menu li:last-child a {
 /*----------- Final hero -----------*/
 
 
+/*---------- Inicio servicio ------------*/
 
+
+.servicio {
+    width: 100%;
+    padding: 1.25em;
+    margin-top: 1.25em;
+}
+
+.servicio h2 {
+    text-align: center;
+    font-family: var(--funetetitulo);
+    font-size: 3em;
+}
+
+.servicio h2 span {
+    color: var(--colorprincipal);
+}
+
+.servicio .hr {
+    position: relative;
+    margin: 0.625em auto;
+    height: 4px;
+    width: 150px;
+    background-color: var(--colorprincipal);
+}
+
+.servicio .hr span {
+    position: absolute;
+    font-size: 1.8em;
+    font-weight: bold;
+    color: var(--colorprincipal);
+    left: 50%;
+    top: -350%;
+    transform: translate(-50%);
+}
+
+.servicio .icono {
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    font-size: 1.5em;
+    color: var(--colorprincipal);
+    text-align: center;
+    border: 2px solid var(--colorprincipal);
+}
+
+.servicio .detalle h4 {
+    font-weight: bold;
+    margin: 0.625em 0;
+}
+
+.servicio .detalle article a {
+    display: block;
+    font-weight: bold;
+    width: 150px;
+    color: var(--colorprincipal);
+    margin: 5px 0 20px 0;
+}
+
+.servicio .detalle article a::after {
+    content: ' ➙';
+}
+
+.servicio .detalle article {
+    margin-top: 1.25em;
+    border-bottom: 2px solid gray;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*---------- Final servicio ------------*/
 
 
 
@@ -191,6 +270,7 @@ header nav .menu li:last-child a {
 /* inicio mediaqueries */
 @media(min-width:48em) {
 
+    /* header */
     header .nav-top .container {
         justify-content: space-between;
     }
@@ -201,6 +281,18 @@ header nav .menu li:last-child a {
 
     header .nav-top span {
         display: inline;
+    }
+
+    /* servicio */
+    .servicio .detalle {
+        display: flex;
+    }
+
+    .servicio .detalle article {
+        padding: 0.9375em;
+        width: 33.33%;
+        border-left: 2px solid gray;
+        border-bottom: 0;
     }
 }
 
