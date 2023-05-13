@@ -114,6 +114,112 @@ header nav .menu li:last-child a {
 
 
 
+/* ----------Inicio seccion blog------------- */
+
+.blog {
+    width: 100%;
+    padding: 1.25em;
+    margin-top: 1.25em;
+}
+
+.blog h2 {
+    text-align: center;
+    font-family: var(--funetetitulo);
+    font-size: 3em;
+}
+
+.blog h2 span {
+    color: var(--colorprincipal);
+}
+
+.blog .hr {
+    position: relative;
+    margin: 0.625em auto;
+    height: 4px;
+    width: 150px;
+    background-color: var(--colorprincipal);
+}
+
+.blog .hr span {
+    position: absolute;
+    font-size: 1.8em;
+    font-weight: bold;
+    color: var(--colorprincipal);
+    left: 50%;
+    top: -350%;
+    transform: translate(-50%);
+}
+
+.blog .contenido {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 1.875em;
+}
+
+
+.blog .contenido article {
+    position: relative;
+}
+
+.blog .contenido article .caja {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    width: 80px;
+    height: 80px;
+    background-color: var(--colorprincipal);
+    opacity: 0.8;
+    color: #fff;
+    font-size: 1.25em;
+    font-weight: bold;
+    padding: 8px;
+    text-align: center;
+    line-height: 1.6;
+}
+
+.blog .contenido article {
+    width: 50%;
+    padding: 0.9375em;
+}
+
+.blog .contenido .bottom {
+    padding: 0.625em;
+    column-rule: var(--colorsecundario);
+}
+
+.blog .contenido h4 {
+    font-size: 1.25em;
+    font-weight: bold;
+
+}
+
+.blog .contenido h5 {
+    color: var(--colorprincipal);
+    font-weight: bold;
+    padding: 0.625em 0;
+}
+
+.blog .contenido p {
+    line-height: 1.2;
+    margin-bottom: 15px;
+}
+
+.blog .container a {
+    display: block;
+    width: 70%;
+    color: var(--colorprincipal);
+    font-weight: bold;
+}
+
+.blog .container a::after {
+    content: ' ➙';
+}
+
+
+/* ----------Final seccion blog------------- */
+
+
+
 
 /* ----------Inicio botton para arribia--------- */
 main {
@@ -170,9 +276,13 @@ footer div {
         display: inline;
     }
 
-   
 
-    
+    .blog .contenido article {
+        width: 33.33%;
+ 
+    }
+
+
 
 }
 
