@@ -13,6 +13,10 @@ img {
     display: block;
 }
 
+a {
+    text-decoration: none;
+}
+
 html {
     scroll-behavior: smooth;
 }
@@ -37,7 +41,7 @@ body {
     font-size: var(--font-size);
 }
 
-/* Inicio header */
+/*------ Inicio header ------*/
 
 header .nav-top {
     background-color: var(--colorsecundario);
@@ -107,7 +111,76 @@ header nav .menu li:last-child a {
     border-bottom: 0px;
 }
 
-/* Final header */
+/*------- Final header --------*/
+
+
+/* -------Inicio hero ---------*/
+
+.hero {
+    background: url(../images/fondo.jpg);
+    background-color: #978e8e;
+    background-blend-mode: multiply;
+    background-size: cover;
+    background-position: 50% 60%;
+    height: 80vh;
+}
+
+.hero .container {
+    padding: 8.125em 0 0 1.25em;
+}
+
+.hero .titulo {
+    width: 70%;
+}
+
+.hero h2 {
+    font-family: var(--funetetitulo);
+    color: #fff;
+    font-size: 3em;
+}
+
+.hero h4 {
+    color: var(--colorprincipal);
+    font-size: 1.5em;
+    padding: 1.25em 0;
+}
+
+.hero p {
+    color: #fff;
+    font-size: 1.3em;
+}
+
+.hero .titulo>a {
+    display: block;
+    width: 180px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    font-size: 1.1em;
+    color: #fff;
+    background-color: var(--colorprincipal);
+    margin: 1.25em 0;
+}
+
+.hero .titulo>a::after {
+    content: ' ➙';
+}
+
+.hero .icono ul {
+    display: flex;
+}
+
+.hero .icono ul a {
+    display: block;
+    color: #fff;
+    font-size: 2em;
+}
+
+.hero .icono ul li:nth-child(2) {
+    padding: 0 2.5em;
+}
+
+/*----------- Final hero -----------*/
 
 
 
